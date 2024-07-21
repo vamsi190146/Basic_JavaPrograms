@@ -26,4 +26,5 @@ public class PangramChecker {
         boolean result = isPangram(sentence);
         System.out.println("Is the sentence a pangram? " + result);
     }
+
 }
