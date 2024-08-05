@@ -3,7 +3,6 @@ public class MatrixSearch {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return false;
         }
-        
         int rows = matrix.length;
         int cols = matrix[0].length;
         
@@ -22,7 +21,6 @@ public class MatrixSearch {
         
         return false;
     }
-
     public static void main(String[] args) {
         int[][] matrix = {
             {1, 4, 7, 11},
