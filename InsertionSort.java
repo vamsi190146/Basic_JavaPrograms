@@ -11,7 +11,6 @@ public class InsertionSort {
             arr[j + 1] = key;
         }
     }
-
     public static void main(String[] args) {
         int[] arr = {64, 25, 12, 22, 11};
         insertionSort(arr);
