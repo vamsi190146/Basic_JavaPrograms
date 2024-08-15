@@ -7,4 +7,5 @@ class Solution {
             ans+=Math.abs(seats[i]-students[i]);
         return ans;
     }
+    
 }
