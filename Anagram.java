@@ -10,8 +10,7 @@ public class AnagramChecker {
         if (str1.length() != str2.length()) {
             return false;
         }
-        
-        // Convert strings to character arrays
+    
         char[] arr1 = str1.toCharArray();
         char[] arr2 = str2.toCharArray();
         
