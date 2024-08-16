@@ -13,6 +13,7 @@ public class BinarySearch {
             } else {
                 right = mid - 1;
             }
+            
         }
         return -1; // Key not found
     }
