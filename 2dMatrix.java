@@ -18,7 +18,6 @@ public class MatrixSearch {
                 row++;
             }
         }
-        
         return false;
     }
     public static void main(String[] args) {
