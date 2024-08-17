@@ -8,7 +8,6 @@ public class ArmstrongNumber {
         }
         
     }
-    
     public static boolean isArmstrong(int number) {
         int originalNumber = number;
         int sum = 0;
