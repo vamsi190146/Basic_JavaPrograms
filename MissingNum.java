@@ -10,8 +10,6 @@ public class MissingNumber {
         for (int num : nums) {
             actualSum += num;
         }
-        
-        // The missing number is the difference between expected sum and actual sum
         return expectedSum - actualSum;
     }
     
