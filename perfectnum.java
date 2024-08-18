@@ -24,7 +24,6 @@ public class PerfectNumber {
             }
         }
         
-        // Check if sum of divisors is equal to the number
         return sum == number;
     }
 }
