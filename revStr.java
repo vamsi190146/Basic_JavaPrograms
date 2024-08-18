@@ -5,7 +5,6 @@ public class StringReversal {
         System.out.println("Original: " + original);
         System.out.println("Reversed: " + reversed);
     }
-
     public static String reverseString(String str) {
         char[] charArray = str.toCharArray();
         int left = 0;
