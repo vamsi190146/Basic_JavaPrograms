@@ -14,7 +14,6 @@ public class PerfectNumber {
         
         scanner.close();
     }
-
     public static boolean isPerfectNumber(int number) {
         int sum = 0;
         
