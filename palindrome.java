@@ -14,7 +14,6 @@ public class PalindromeNumber {
         
         scanner.close();
     }
-
     public static boolean isPalindrome(int number) {
         int originalNumber = number;
         int reversedNumber = 0;
