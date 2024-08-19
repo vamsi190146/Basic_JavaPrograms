@@ -13,6 +13,7 @@ class Solution {
                 secondLargest = num;
             }
         }
+        
         return (secondLargest == Integer.MIN_VALUE) ? -1 : secondLargest;
     }
 }
