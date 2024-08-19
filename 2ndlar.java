@@ -5,7 +5,6 @@ class Solution {
         }
         int firstLargest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
-
         for (int num : arr) {
             if (num > firstLargest) {
                 secondLargest = firstLargest;
