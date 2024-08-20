@@ -16,7 +16,6 @@ public class MergeSort {
 
         System.arraycopy(arr, left, L, 0, n1);
         System.arraycopy(arr, mid + 1, R, 0, n2);
-
         int i = 0, j = 0;
         int k = left;
         while (i < n1 && j < n2) {
