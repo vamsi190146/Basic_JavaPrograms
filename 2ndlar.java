@@ -3,7 +3,7 @@ class Solution {
         if (arr == null || arr.size() < 2) {
             return -1; 
         }
-        
+    
         int firstLargest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
         for (int num : arr) {
