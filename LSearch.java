@@ -5,7 +5,7 @@ public class LinearSearch {
                 return i;
             }
         }
-        return -1; // Key not found
+        return -1; 
     }
 
     public static void main(String[] args) {
