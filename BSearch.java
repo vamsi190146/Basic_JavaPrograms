@@ -4,7 +4,6 @@ public class BinarySearch {
         int right = arr.length - 1;
         while (left <= right) {
             int mid = left + (right - left) / 2;
-
             if (arr[mid] == key) {
                 return mid;
             }
