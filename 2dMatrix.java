@@ -26,7 +26,6 @@ public class MatrixSearch {
             {3, 6, 9, 16},
             {10, 13, 14, 17}
         };
-        
         int target = 5;
         boolean result = searchMatrix(matrix, target);
         
