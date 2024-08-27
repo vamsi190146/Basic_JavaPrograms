@@ -7,7 +7,6 @@ public class AnagramChecker {
         if (str1.length() != str2.length()) {
             return false;
         }
-        
         char[] arr1 = str1.toCharArray();
         char[] arr2 = str2.toCharArray();
         Arrays.sort(arr1);
