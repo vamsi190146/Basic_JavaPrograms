@@ -7,6 +7,7 @@ public class ArmstrongNumber {
             System.out.println(number + " is not an Armstrong number.");
         }
     }
+    
     public static boolean isArmstrong(int number) {
         int originalNumber = number;
         int sum = 0;
