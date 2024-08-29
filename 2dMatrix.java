@@ -3,7 +3,6 @@ public class MatrixSearch {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return false;
         }
-        
         int rows = matrix.length;
         int cols = matrix[0].length;
         int row = 0;
