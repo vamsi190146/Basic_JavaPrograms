@@ -7,7 +7,6 @@ public class LinearSearch {
         }
         return -1; 
     }
-    
     public static void main(String[] args) {
         int[] arr = {2, 4, 0, 1, 9};
         int key = 1;
