@@ -15,7 +15,6 @@ public class MatrixSearch {
             } else {
                 row++;
             }
-            
         }
         return false;
     }
