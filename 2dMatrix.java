@@ -5,6 +5,7 @@ public class MatrixSearch {
         }
         int rows = matrix.length;
         int cols = matrix[0].length;
+        
         int row = 0;
         int col = cols - 1;
         while (row < rows && col >= 0) {
